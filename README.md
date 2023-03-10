@@ -2,7 +2,7 @@
   <img src="src\assets\img\telesport_logo.png" title="Telesport">
 </p>
 
-# OlympicGamesStarter 
+# Olympic Games App
 ![Angular](https://img.shields.io/static/v1?label=&message=ANGULAR&color=red)![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=blue)![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=yellow)![HTML](https://img.shields.io/static/v1?label=&message=HTML&color=green)
 
 
