@@ -22,7 +22,7 @@ export class OlympicService {
   public loadInitialData() {
     return this.http.get<Olympic[]>(this.olympicUrl).pipe(
       tap((value) => this.olympics$.next(value)),
-      catchError((this.handleError<Olympic[]>('loadInitialData', [])))
+      catchError((this.handleError<Olympic[]>('Error on loadInitialData', [])))
     );
   }
 

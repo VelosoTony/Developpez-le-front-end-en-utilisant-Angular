@@ -42,8 +42,8 @@ export class HomeComponent implements OnInit {
                                           }]
                         };
           },
-          error: err => console.error('An error occurend', err),
-          complete: () => console.log('Completed')
+          error: err => console.error('Error on getOlympics', err),
+          complete: () => console.log('getOlympics Completed')
       }
     )
   }

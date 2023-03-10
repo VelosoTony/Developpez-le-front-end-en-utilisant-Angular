@@ -52,8 +52,8 @@ export class CountryDataComponent implements OnInit {
                               }]
                         };
         },
-          error: err => console.error('An error occurend', err),
-          complete: () => console.log('Completed')
+          error: err => console.error('Error on getOlympicByCountryId', err),
+          complete: () => console.log('getOlympicByCountryId Completed')
       }
     )
   }
