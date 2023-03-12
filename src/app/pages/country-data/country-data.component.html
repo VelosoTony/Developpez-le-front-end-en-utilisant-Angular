@@ -1,4 +1,4 @@
-<div class="container" *ngIf="(stats.titleCard ===''); else elseBlock">
+<div class="container" *ngIf="(!stats.titleCard); else elseBlock">
   <h2>Error loading data! <hr> Please try again later...</h2>
 </div>
 <ng-template #elseBlock>
